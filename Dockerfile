@@ -13,6 +13,8 @@ RUN apt-get -y install cmake --no-install-recommends && cmake -v --version
 
 RUN apt-get -y install qt5-default
 
+RUN apt-get -y install git
+
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
