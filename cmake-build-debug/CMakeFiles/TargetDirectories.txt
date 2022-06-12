@@ -1,0 +1,3 @@
+/home/embrace0feternity/works/clion_workspace/Docker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/embrace0feternity/works/clion_workspace/Docker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/embrace0feternity/works/clion_workspace/Docker/cmake-build-debug/CMakeFiles/Docker.dir
