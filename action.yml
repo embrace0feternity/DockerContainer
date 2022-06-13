@@ -1,6 +1,6 @@
 # action.yml
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Action'
+description: 'default action for build and test project'
 inputs:
   build_type:  # id of input
     description: 'Project build type. It depends on build directory name'
