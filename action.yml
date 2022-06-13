@@ -2,15 +2,15 @@
 name: 'Hello World'
 description: 'Greet someone and record the time'
 inputs:
-  who-to-greet:  # id of input
-    description: 'Who to greet'
+  build_type:  # id of input
+    description: 'Project build type. It depends on build directory name'
     required: true
-    default: 'World'
+    default: 'Debug'
 outputs:
-  time: # id of output
-    description: 'The time we greeted you'
+  currentDir: # id of output
+    description: 'current directory'
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
-    - ${{ inputs.who-to-greet }}
+    - ${{ inputs.build_type }}
